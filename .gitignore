@@ -1,0 +1,14 @@
+# Ignore Python cache and compiled files
+__pycache__/
+
+# Ignore local SQLite database (if using SQLite)
+db.sqlite3
+
+# Ignore virtual environments
+/env/
+.venv/
+
+# Ignore Celery Beat schedule files
+celerybeat-schedule.bak
+celerybeat-schedule.dat
+celerybeat-schedule.dir
